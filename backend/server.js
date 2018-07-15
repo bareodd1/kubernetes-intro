@@ -9,17 +9,17 @@ app.get('/', (request, response) => {
 });
 
 app.get('/api/me', (request, response) => {
-	response.send('{"name": "Arthur Dent", "location": "Norge"}');
+	response.send('{"name": "HMS extension phase 2", "location": "Norge, Oslo"}');
 	logger.info('Responded to GET request on /api/me')
 });
 
 app.get('/api/work', (request, response) => {
-	response.send('[{"yearFrom": "2010", "yearTo": "2018", "place": "NRK Radio", "comment": "Was doing stuff"}, {"yearFrom": "2009", "yearTo": "2010", "place": "The coffee shop", "comment": "Making coffee"}]');
+	response.send('[{"yearFrom": "2016", "yearTo": "2017", "place": "John Smith", "comment": "Payd OK. S99"}, {"yearFrom": "2017", "yearTo": "2018", "place": "Kjell Fjell", "comment": "70% payd. OK S70."}]');
 	logger.info('Responded to GET request on /api/work')
 });
 
 app.get('/api/education', (request, response) => {
-	response.send('[{"yearFrom": "2005", "yearTo": "2007", "place": "HSR 1991", "comment": "Studying"}, {"yearFrom": "2001", "yearTo": "2004", "place": "Barista academy", "comment": "Made coffee"}]');
+	response.send('[{"yearFrom": "2014", "yearTo": "2017", "place": "Paint main office", "comment": "Done OK"}, {"yearFrom": "2017", "yearTo": "2019", "place": "New network", "comment": "Starter OK. S80"}]');
 	logger.info('Responded to GET request on /api/edu')
 });
 
