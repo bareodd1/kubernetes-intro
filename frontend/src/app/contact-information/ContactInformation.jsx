@@ -7,10 +7,10 @@ const ContactInformation = ({ contactInformation }) => {
     }
     return (
         <div>
-            <h2>Contact information</h2>
+            <h2>Progress information</h2>
             <div className="contact-information justify-content-between">
                 <div className="contact-information-content">
-                    <p><b>Name: </b>{contactInformation.name}</p>
+                    <p><b>Main project: </b>{contactInformation.name}</p>
                     <p><b>Location: </b>{contactInformation.location}</p>
                 </div>
                 <img

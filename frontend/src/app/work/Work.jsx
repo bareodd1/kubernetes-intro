@@ -16,13 +16,13 @@ const Work = ({ work }) => {
         <norcript />;
     return (
         <div className="work">
-            <h2>Work</h2>
+            <h2>Invoices</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Period</th>
-                        <th>Where</th>
-                        <th>Comment</th>
+                        <th>For period</th>
+                        <th>Responsible</th>
+                        <th>Status</th>
                     </tr>
                 </thead>
                 {workRows}

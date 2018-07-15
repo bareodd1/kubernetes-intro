@@ -17,13 +17,13 @@ const Education = ({ education }) => {
 
     return (
         <div className="education mb-5">
-            <h2>Education</h2>
+            <h2>Activities</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Period</th>
-                        <th>Where</th>
-                        <th>Comment</th>
+                        <th>Active period</th>
+                        <th>Description</th>
+                        <th>Status</th>
                     </tr>
                 </thead>
                 <tbody>
