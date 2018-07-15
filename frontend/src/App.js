@@ -16,6 +16,7 @@ const App = () => (
       <div className="content-bulk">
           <WorkContainer />
       </div>
+      <h1 className="main-header my-5">Activity Definitions</h1>
   </div>
 );
 

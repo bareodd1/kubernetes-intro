@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gcr.io/potent-smithy-207113/frontend:cv-frontend-3
+        image: gcr.io/potent-smithy-207113/frontend:cv-frontend-4
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
